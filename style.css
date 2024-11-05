@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+main>section{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(103, 245, 250);
+    padding: 1.2rem;
+    border-radius: 7px;
+    box-shadow: 0px 1px 7px 1px rgba(235, 235, 235, 0.7);
+}
+main>section>h1{
+    font-family: iransans_bold;
+}
+main>section>h1>span{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-shadow: 0px 1.2px 1px rgba(37, 37, 37, 0.7);
+    animation: jump 2s ease-out infinite;
+}
+@keyframes jump {
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+main>section>p{
+    font-family: iransans_reg;
+    text-align: justify;
+}
+

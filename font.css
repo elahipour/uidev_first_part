@@ -1,0 +1,8 @@
+@font-face {
+    font-family: iransans_reg;
+    src: url('woff/IRANSansX-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: iransans_bold;
+    src: url('woff/IRANSansX-Bold.woff') format('woff');
+}
